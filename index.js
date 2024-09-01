@@ -9,7 +9,7 @@ app.get('/', (req,res)=>{
 
 app.get ('/form/', (req,res)=>{
     const {name} = req.query;
-    res.send(`Hello ${name}`)
+    res.send(`welcome ${name}`)
 })
 
 app.listen(8000)
